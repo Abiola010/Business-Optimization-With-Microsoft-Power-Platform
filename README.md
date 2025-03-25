@@ -18,11 +18,11 @@ To resolve these challenges, we implemented a **Microsoft Power Platform** solut
 ### **Client's Requirements:**
 | Requirement | Description |
 |------------|-------------|
-| **Customer Order & Inventory Management** | Centralized system for handling customer orders without requiring them to sign up as company staff. |
-| **Automated Workflows** | Approvals, notifications, and data synchronization. |
+| **Customer Order & Inventory Management** | A system where customers can place orders without needing a company account. |
+| **Automated Workflows** | A way to automatically approve, notify, and update orders. |
 | **Real-Time Reporting** | Dashboards for tracking sales, orders, and stock levels. |
-| **Secure & Structured Database** | A scalable and secure data storage solution. |
-| **Seamless Process Integration** | The ability to integrate with existing inventory management systems. |
+| **Secure & Structured Database** | A reliable and secure way to store data. |
+| **Seamless Process Integration** | Ability to connect with the existing inventory system. |
 
 ---
 
@@ -32,15 +32,15 @@ We leveraged **Microsoft Power Platform** to create an automated, integrated sys
 ### **Power Platform Tools Used:**
 | Tool | Purpose |
 |------|---------|
-| **Power Apps (Canvas App)** | Built a **customer order interface** accessible via web/mobile without requiring staff login. |
+| **Power Apps (Power pages)** | A simple platform/ interface where customers can place orders online. |
 | **Power Automate** | Automated order processing, notifications, and inventory updates. |
 | **Power BI** | Real-time reporting dashboards for sales and inventory insights. |
-| **Dataverse** | Secure database for storing order and inventory data. |
+| **Dataverse** | Secure database for storing customer orders and inventory data. |
 
 ### **Implementation Breakdown:**
 
-#### **1️⃣ Power Apps – Customer Order Interface**
-- Designed a **Canvas App** where customers can place orders without needing a company account.
+#### **1️⃣ Power Pages – Customer Order Interface**
+- Designed a **power pages** where customers can place orders without needing a company account.
 - Integrated with **Dataverse** to store order details securely.
 - Embedded within the company's website for seamless access.
 
