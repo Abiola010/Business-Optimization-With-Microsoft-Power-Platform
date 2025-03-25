@@ -1,4 +1,4 @@
-# Power Platform Use Case: Customer Order Management System
+# Power Platform Use Case: Customer Order & Inventory Management System
 
 ## **Introduction**
 A mid-sized manufacturing company faced inefficiencies in handling **customer orders and inventory management**. The existing process involved multiple spreadsheets, emails, and manual interventions, leading to errors, delays, and poor visibility into operations.
@@ -46,7 +46,7 @@ We leveraged **Microsoft Power Platform** to create an automated, integrated sys
 #### **2️⃣ Power Automate – Automating Order Processing**
 - When a new order is submitted, an **automated flow**:
   - Sends a confirmation email to the customer.
-  - Notifies the sales and inventory teams via Microsoft Teams/ outlook.
+  - Notifies the sales and inventory teams via Microsoft Teams/mail.
   - Updates the inventory management system in real time.
 
 #### **3️⃣ Power BI – Reporting & Analytics**
