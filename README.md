@@ -1,13 +1,13 @@
 # Power Platform Use Case: Customer Order Management System
 
-## **1. Introduction**
+## **Introduction**
 A mid-sized manufacturing company faced inefficiencies in handling **customer orders and inventory management**. The existing process involved multiple spreadsheets, emails, and manual interventions, leading to errors, delays, and poor visibility into operations.
 
 To resolve these challenges, we implemented a **Microsoft Power Platform** solution to automate workflows, centralize data, and improve overall operational efficiency.
 
 ---
 
-## **2. Problem Statement**
+## **Problem Statement**
 ### **Key Issues Identified:**
 - **Manual Order Processing:** Orders were received via email and manually entered into spreadsheets.
 - **Data Silos:** Different departments had separate data sources, causing inconsistencies.
@@ -22,17 +22,17 @@ To resolve these challenges, we implemented a **Microsoft Power Platform** solut
 | **Automated Workflows** | A way to automatically approve, notify, and update orders. |
 | **Real-Time Reporting** | Dashboards for tracking sales, orders, and stock levels. |
 | **Secure & Structured Database** | A reliable and secure way to store data. |
-| **Seamless Process Integration** | Ability to connect with the existing inventory system. |
+| **Seamless Process Migration** | Ability to migrate to the new inventory system. |
 
 ---
 
-## **3. Solution Approach**
+## **Solution Approach**
 We leveraged **Microsoft Power Platform** to create an automated, integrated system addressing these challenges.
 
 ### **Power Platform Tools Used:**
 | Tool | Purpose |
 |------|---------|
-| **Power Apps (Power pages)** | A simple platform/ interface where customers can place orders online. |
+| **Power Pages** | A simple platform/ interface where customers can place orders online. |
 | **Power Automate** | Automated order processing, notifications, and inventory updates. |
 | **Power BI** | Real-time reporting dashboards for sales and inventory insights. |
 | **Dataverse** | Secure database for storing customer orders and inventory data. |
@@ -40,14 +40,13 @@ We leveraged **Microsoft Power Platform** to create an automated, integrated sys
 ### **Implementation Breakdown:**
 
 #### **1️⃣ Power Pages – Customer Order Interface**
-- Designed a **power pages** where customers can place orders without needing a company account.
+- Designed a **website with power pages** where customers can place orders.
 - Integrated with **Dataverse** to store order details securely.
-- Embedded within the company's website for seamless access.
-
+  
 #### **2️⃣ Power Automate – Automating Order Processing**
 - When a new order is submitted, an **automated flow**:
   - Sends a confirmation email to the customer.
-  - Notifies the sales and inventory teams via Microsoft Teams.
+  - Notifies the sales and inventory teams via Microsoft Teams/ outlook.
   - Updates the inventory management system in real time.
 
 #### **3️⃣ Power BI – Reporting & Analytics**
@@ -63,7 +62,7 @@ We leveraged **Microsoft Power Platform** to create an automated, integrated sys
 
 ---
 
-## **4. Benefits & Outcomes**
+## **Benefits & Outcomes**
 ✅ **Faster Order Processing:** Automated workflows reduced manual effort by 70%.
 
 ✅ **Reduced Errors:** Eliminated data inconsistencies across departments.
@@ -76,7 +75,7 @@ We leveraged **Microsoft Power Platform** to create an automated, integrated sys
 
 ---
 
-## **5. Conclusion & Next Steps**
+## **Conclusion & Next Steps**
 This solution successfully streamlined **customer order management**, improved efficiency, and provided real-time visibility into sales and inventory.
 
 ### **Next Steps:**
@@ -86,4 +85,3 @@ This solution successfully streamlined **customer order management**, improved e
 
 This Power Platform solution provides a **scalable, automated, and efficient** approach to order management. 🚀
 
-Here is a powerpoint slide for more information::: https://easynig-my.sharepoint.com/:p:/g/personal/sodiq_easynig_onmicrosoft_com/EQf5yEHLletAuVCqIkEUN9ABinPXnJdaMkB55fkOM3HTWg?e=UEpfSu
