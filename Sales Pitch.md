@@ -1,4 +1,4 @@
-# 🚀 Power Platform Customer Order Management System
+# 🚀 Power Platform: Customer Order & Inventory  Management System
 
 *Transform manual processes into automated efficiency with Microsoft Power Platform*
 
@@ -11,7 +11,7 @@ A mid-sized manufacturing company faced critical challenges:
 - No real-time visibility into operations
 
 **Our Solution:**  
-Built a custom Microsoft Power Platform system that:
+To build a custom Microsoft Power Platform system that:
 
 ✔️ Automated 70% of manual workflows  
 ✔️ Centralized data in secure databases  
