@@ -86,3 +86,4 @@ This solution successfully streamlined **customer order management**, improved e
 
 This Power Platform solution provides a **scalable, automated, and efficient** approach to order management. 🚀
 
+https://easynig-my.sharepoint.com/:p:/g/personal/sodiq_easynig_onmicrosoft_com/EQzLF75bq8hOj73HDeNLUUEBeBVYshc1MUc_ejg4DlQzcQ?e=1OLVCp
