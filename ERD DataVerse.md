@@ -1,0 +1,82 @@
+### **Dataverse Schema for Inventory Management System (IMS)**
+
+### **Overview**
+This document outlines the **Dataverse schema** for the **Inventory Management System (IMS)** used by the manufacturing company. The schema includes core **tables (entities), relationships, and key fields** to support efficient order and inventory management.
+
+---
+
+### **Core Tables (Entities) & Fields**
+
+### **1️⃣ Products (Inventory Items)**
+Stores details of all products in stock.
+| Field Name | Data Type | Description |
+|------------|----------|-------------|
+| Product ID | Unique Identifier | Primary Key |
+| Product Name | Text | Name of the product |
+| Category | Choice | Raw Materials, Finished Goods, etc. |
+| SKU | Text | Stock Keeping Unit |
+| Supplier ID | Lookup (Suppliers) | Links to Supplier Table |
+| Unit of Measurement | Choice | kg, pieces, liters, etc. |
+| Reorder Level | Number | Threshold for reordering |
+| Current Stock Quantity | Number | Available stock count |
+| Unit Price | Currency | Price per unit |
+
+### **2️⃣ Customer Orders**
+Tracks customer purchases and fulfillment status.
+| Field Name | Data Type | Description |
+|------------|----------|-------------|
+| Order ID | Unique Identifier | Primary Key |
+| Customer Name | Text | Name of the customer |
+| Order Date | Date/Time | Date order was placed |
+| Order Status | Choice | Pending, Shipped, Delivered, Canceled |
+| Total Order Value | Currency | Order amount |
+| Payment Status | Choice | Paid, Unpaid, Partially Paid |
+| Delivery Address | Text | Shipping location |
+
+### **3️⃣ Inventory Transactions (Stock Movement)**
+Records stock changes due to orders, restocking, or adjustments.
+| Field Name | Data Type | Description |
+|------------|----------|-------------|
+| Transaction ID | Unique Identifier | Primary Key |
+| Transaction Type | Choice | Stock-In, Stock-Out, Adjustment |
+| Product ID | Lookup (Products) | Links to Product Table |
+| Quantity Adjusted | Number | Amount of stock added/removed |
+| Date & Time | Date/Time | When the transaction occurred |
+| Reason for Adjustment | Choice | Damaged, Expired, Returned, etc. |
+| Handled By | Lookup (Users) | Staff responsible for transaction |
+
+### **4️⃣ Suppliers & Vendors**
+Maintains supplier details for procurement and restocking.
+| Field Name | Data Type | Description |
+|------------|----------|-------------|
+| Supplier ID | Unique Identifier | Primary Key |
+| Supplier Name | Text | Name of the supplier |
+| Contact Information | Text | Email, phone, etc. |
+| Products Supplied | Lookup (Products) | Links to Product Table |
+| Payment Terms | Choice | Net 30, Net 60, etc. |
+| Last Order Date | Date/Time | Most recent transaction date |
+
+### **5️⃣ Users & Roles (Access Control)**
+Defines user permissions and roles in the system.
+| Field Name | Data Type | Description |
+|------------|----------|-------------|
+| User ID | Unique Identifier | Primary Key |
+| Full Name | Text | Name of the user |
+| Role | Choice | Admin, Sales Rep, Inventory Manager |
+| Permissions | Choice | Read, Edit, Approve Orders, Adjust Stock |
+
+---
+
+## **Relationships Between Tables**
+- **Products ↔ Suppliers** (One-to-Many) → Each supplier provides multiple products.
+- **Customer Orders ↔ Products** (Many-to-Many) → An order can have multiple products, and a product can appear in multiple orders.
+- **Inventory Transactions ↔ Products** (Many-to-One) → Each transaction is linked to a product.
+- **Users ↔ Inventory Transactions** (Many-to-One) → Each transaction is recorded by a user.
+
+---
+
+## **Conclusion**
+This Dataverse schema provides a **structured, secure, and scalable** database design for the Inventory Management System, ensuring smooth operations, automation, and analytics integration.
+
+[Dataverse ERD Presentation](https://easynig-my.sharepoint.com/:p:/g/personal/sodiq_easynig_onmicrosoft_com/ETjfp14ImYFCj8YbBtvxbAABdtFtDiS4EssRY8q6yc9KqA?e=hzqiQh)
+
