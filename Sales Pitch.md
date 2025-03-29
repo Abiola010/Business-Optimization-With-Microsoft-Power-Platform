@@ -44,7 +44,7 @@ For solving this problem we will use using Microsoft Power Platform such as powe
 - The Inventory Approval Management System:
   - Check if the requested inventory is available
   - Budget Approval to be given by the finance department.
-  - Quality Assurance team enures that company policies and regulations are met
+  - Quality Assurance team ensures that company policies and regulations are met
 
 #### **3️⃣ Power BI – Reporting & Analytics**
 - Connected to **Dataverse** for real-time tracking of:
@@ -53,9 +53,9 @@ For solving this problem we will use using Microsoft Power Platform such as powe
 - Created **interactive dashboards** for executives and sales teams.
 
 #### **4️⃣ Dataverse – Secure Data Storage**
-- Centralized order and inventory data in **a structured database**.
+- Centralized order and inventory data.
 - Defined **user roles & security policies** to control data access.
-- Ensured **real-time synchronization** across Power Apps, Power Automate, and Power BI.
+- *Real-time synchronization** across Power Apps, Power Automate, and Power BI.
 
 ---
 
