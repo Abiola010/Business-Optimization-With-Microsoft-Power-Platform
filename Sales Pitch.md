@@ -33,13 +33,13 @@ For solving this problem we will use using Microsoft Power Platform such as powe
 ### **Implementation Breakdown:**
 
 #### **1️⃣ Power Pages – Customer Order Interface**
-- Designed a **website with power pages** where customers can place orders.
+- Designed a **website built with power pages** where customers can place orders.
 - Integrated with **Dataverse** to store order details securely.
   
-#### **2️⃣ Power Automate – Automating Order Processing**
-- When a new order is submitted, an **automated flow**:
-  - Sends a confirmation email to the customer.
-  - Notifies the sales and inventory teams via Microsoft Teams/mail.
+#### **2️⃣ Automation – Automating Customer Order  and Invetory Managemrnt**
+- When a customer subnits order, an **automated flow**:
+  - A confirmation email is sent to the customer.
+  - Sales and inventory teams notified of the new order.
   - Updates the inventory management system in real time.
 
 #### **3️⃣ Power BI – Reporting & Analytics**
