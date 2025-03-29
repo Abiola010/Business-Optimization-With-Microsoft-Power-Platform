@@ -74,5 +74,5 @@ Maintains supplier details for procurement and restocking.
 ## **Conclusion**
 This Dataverse schema provides a **structured, secure, and scalable** database design for the Inventory Management System, ensuring smooth operations, automation, and analytics integration.
 
-[Dataverse ERD Presentation](https://easynig-my.sharepoint.com/:p:/g/personal/sodiq_easynig_onmicrosoft_com/ETjfp14ImYFCj8YbBtvxbAABdtFtDiS4EssRY8q6yc9KqA?e=hzqiQh)
+[Dataverse ERD Presentation](https://easynig-my.sharepoint.com/:p:/g/personal/sodiq_easynig_onmicrosoft_com/ETjfp14ImYFCj8YbBtvxbAABdtFtDiS4EssRY8q6yc9KqA?e=hzqiQh) is a powerpoint file for more insight of this sales pitch 
 
