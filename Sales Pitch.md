@@ -54,8 +54,6 @@ For solving this problem we will use using Microsoft Power Platform such as powe
 
 ---
 
----
-
 ### **Why This Matters to You**  
 🔹 **Cut Order Processing Time by 60%** – From manual entry to real-time automation.  
 🔹 **Reduce Inventory Errors by 40%** – With live tracking and automated updates.  
