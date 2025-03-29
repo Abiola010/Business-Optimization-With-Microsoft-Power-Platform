@@ -33,3 +33,17 @@ David Lee (Finance Controller) – Requires financial tracking for order payment
 Karen White (Inventory Manager) – Needs automated stock tracking.
 
 Chris Adams (Sales Executive) – Wants quick access to customer purchase history.
+
+---
+### 🔍 Business Justification – Why Power Platform?
+
+Abiola and Co. company want to understand why Power Platform is the best solution for this business problem.
+
+Check out my [Sales Pitch for Microsoft Power Platform](./SalesPitch.md), where I break down:
+
+- The current challenges faced by the company
+- How Power Platform addresses each pain point
+- Specific tools (Power Apps, Power BI, etc.) mapped to business needs
+- Tangible benefits like time savings, reduced errors, and faster order fulfillment
+
+📊 [View my Sales Pitch Presentation Slides](https://easynig-my.sharepoint.com/:p:/g/personal/sodiq_easynig_onmicrosoft_com/EQf5yEHLletAuVCqIkEUN9ABinPXnJdaMkB55fkOM3HTWg?e=UEpfSu)
