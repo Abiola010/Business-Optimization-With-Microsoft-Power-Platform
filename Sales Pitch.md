@@ -7,7 +7,7 @@ stocking inventory, and dealing with delays due to disconnected systems.
 But how about having a fully automated, integrated system that eliminates these inefficiencies, ensuring real-time data flow and faster order fulfillment? That’s exactly what Microsoft Power Platform can do for your business.
 
 ### **Understanding the Current Pain Points of Abiola & Co. Manufacturing Company**
-I have analyzed the business operations, and here’s what’s showing down the business efficiency:
+I have analyzed the business operations, and here’s what’s slowing down the business efficiency:
 
 - **Manual Order Processing:** Orders come via email and are manually entered, increasing the risk of errors.  
 - **Data Silos:** Different departments rely on separate spreadsheets and systems, causing inconsistencies.  
@@ -24,6 +24,7 @@ For solving this problem we will use using Microsoft Power Platform such as powe
 
 ✅ **Power Page** – Custom website for customer order entry.  
 ✅ **Power Apps** - For managing customer orders and inventory management.
+
 ✅ **Power Automate** – Automate inventory order approvals, notifications, and movement of customer order between departments.  
 ✅ **Power BI** – Advanced analytics for sales forecasting, stock levels, and operational efficiency.  
 ✅ **Dataverse** – A centralized, secure database ensuring all teams work from a **single source**.   
