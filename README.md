@@ -1,6 +1,6 @@
 # Power Platform Project Task: Business Process Automation
  
- A mid-sized manufacturing company, is facing inefficiencies in handling customer orders and inventory management. The current processes involve multiple spreadsheets, emails, and manual interventions, leading to errors, delays, and poor visibility of operations.
+ A mid-sized manufacturing company is facing inefficiencies in handling customer orders and inventory management. The current processes involve multiple spreadsheets, emails, and manual interventions, leading to errors, delays, and poor visibility of operations.
 
 To resolve these issues, the company is considering Microsoft Power Platform to automate workflows, centralize data, and improve operational efficiency.
 
@@ -37,9 +37,9 @@ Chris Adams (Sales Executive) – Wants quick access to customer purchase histor
 ---
 ### 🔍 Business Justification – Why Power Platform?
 
-Abiola and Co. company want to understand why Power Platform is the best solution for this business problem.
+The company wants to understand why Power Platform is the best solution for this business problem.
 
-Check out my [Sales Pitch for Microsoft Power Platform](./SalesPitch.md), where I break down:
+Check out my [Sales Pitch for Microsoft Power Platform](./Sales Pitch.md), where I break down:
 
 - The current challenges faced by the company
 - How Power Platform addresses each pain point
