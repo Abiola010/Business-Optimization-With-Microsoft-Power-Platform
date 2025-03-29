@@ -39,7 +39,7 @@ Chris Adams (Sales Executive) – Wants quick access to customer purchase histor
 
 The company wants to understand why Power Platform is the best solution for this business problem.
 
-Check out my [Sales Pitch for Microsoft Power Platform](https://github.com/Abiola010/Business-Optimization-With-Microsoft-Power-Platform/blob/main/Sales%20Pitch.md)), where I break down:
+Check out my [Sales Pitch for Microsoft Power Platform](https://github.com/Abiola010/Business-Optimization-With-Microsoft-Power-Platform/blob/main/Sales%20Pitch.md), where I break down:
 
 - The current challenges faced by the company
 - How Power Platform addresses each pain point
