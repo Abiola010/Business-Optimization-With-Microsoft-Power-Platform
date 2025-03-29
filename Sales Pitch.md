@@ -27,7 +27,32 @@ For solving this problem we will use using Microsoft Power Platform such as powe
 
 ✅ **Power Automate** – Automate inventory order approvals, notifications, and movement of customer order between departments.  
 ✅ **Power BI** – Advanced analytics for sales forecasting, stock levels, and operational efficiency.  
-✅ **Dataverse** – A centralized, secure database ensuring all teams work from a **single source**.   
+✅ **Dataverse** – A centralized, secure database ensuring all teams work from a **single source**.
+
+### **Implementation Breakdown:**
+
+#### **1️⃣ Power Pages – Customer Order Interface**
+- Designed a **website with power pages** where customers can place orders.
+- Integrated with **Dataverse** to store order details securely.
+  
+#### **2️⃣ Power Automate – Automating Order Processing**
+- When a new order is submitted, an **automated flow**:
+  - Sends a confirmation email to the customer.
+  - Notifies the sales and inventory teams via Microsoft Teams/mail.
+  - Updates the inventory management system in real time.
+
+#### **3️⃣ Power BI – Reporting & Analytics**
+- Connected to **Dataverse** for real-time tracking of:
+  - Sales trends, customer purchase behavior, and revenue growth.
+  - Inventory levels with **low-stock alerts** for restocking.
+- Created **interactive dashboards** for executives and sales teams.
+
+#### **4️⃣ Dataverse – Secure Data Storage**
+- Centralized order and inventory data in **a structured database**.
+- Defined **user roles & security policies** to control data access.
+- Ensured **real-time synchronization** across Power Apps, Power Automate, and Power BI.
+
+---
 
 ---
 
