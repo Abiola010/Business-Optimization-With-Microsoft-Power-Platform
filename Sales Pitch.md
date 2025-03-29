@@ -1,6 +1,6 @@
 ### **Sales Pitch for Microsoft Power Platform in Abiola & Co Manufacturing Company**  
 
-Abiola & Co.are facing inefficiencies in handling customer orders and inventory management. The existing process involved multiple spreadsheets, emails, and manual interventions, which has lead to errors, delays, and poor visibility into business operation.
+Abiola & Co. are facing inefficiencies in handling customer orders and inventory management. The existing process involved multiple spreadsheets, emails, and manual interventions, which has led to errors, delays, and poor visibility into business operation.
 
 Right now, the team is working harder than they should which involves manually processing customers orders, re-
 stocking dinventory, and dealing with delays due to disconnected systems. But how about having a fully automated, integrated system that eliminates these inefficiencies, ensuring real-time data flow and faster order fulfillment? That’s exactly what Microsoft Power Platform can do for your business.
@@ -10,7 +10,7 @@ I havee analyzed the business operations, and here’s what’s showing down the
 
 - **Manual Order Processing:** Orders come via email and are manually entered, increasing the risk of errors.  
 - **Data Silos:** Different departments rely on separate spreadsheets and systems, causing inconsistencies.  
-- **Inventory Mismatch:** No real-time updates lead to delays, overstocking, or out ofstock.  
+- **Inventory Mismatch:** No real-time updates lead to delays, overstocking, or out of stock.  
 - **Lack of Automation:** Approvals are slow, causing delay in order fulfillment.  
 - **Limited Reporting:** No analytics for sales trends, customer demand, or stock movement.  
 
@@ -19,13 +19,14 @@ I havee analyzed the business operations, and here’s what’s showing down the
 ---
 ### **The Solution – Microsoft Power Platform**  
 With Microsoft Power Platform, the business operations would be into a single automated ecosystem thereby eliminating inefficiencies and ensuring seamless workflows.
-Microsoft Power Platform involves several applications such power pages, power automate,power BI, Dataverse,
+For solving this problem we will use using Microsoft Power Platform such as power pages, power automate,power BI, Dataverse.
 
-✅ **Power page** – Custom website for digital order entry, approval workflows, and real-time inventory tracking.  
-✅ **Power Automate** – Automate order approvals, notifications, and updates between departments.  
+✅ **Power page** – Custom website for customer order entry.  
+✅ **Power Apps** - For managing customer orders and inventory management.
+✅ **Power Automate** – Automate inventory order approvals, notifications, and movement of customer order between departments.  
 ✅ **Power BI** – Advanced analytics for sales forecasting, stock levels, and operational efficiency.  
-✅ **Dataverse** – A centralized, secure database ensuring all teams work from a **single source of truth**.  
-✅ **Migration to a new Systems** – Seamlessly migration to your own **ERP, CRM, and warehouse systems**.  
+✅ **Dataverse** – A centralized, secure database ensuring all teams work from a **single source**.  
+✅ **Migration to a new Systems** –  migration to your own **ERP, CRM, and warehouse systems**.  
 
 ---
 
@@ -38,21 +39,8 @@ Microsoft Power Platform involves several applications such power pages, power a
 📊 Imagine having a dashboard where you can instantly see every order, inventory update, and customer trend—anytime, anywhere!
 
 ---
-
-### **Real-World Success**  
-Companies using Microsoft Power Platform have transformed their operations:
-
-🔹 **Example 1:** A manufacturer reduced order processing time from 48 hours to 6 hours.  
-🔹 **Example 2:** A supplier eliminated data silos, improving order accuracy by 35%.  
-🔹 **Example 3:** A factory automated approvals, reducing delays by 70%."  
-
-With my expertise in Power Platform development, I will design a solution specifically for your needs, ensuring it integrates seamlessly with your existing systems.
-
----
   
-The question is: Are you still not convinced? Kindly look through [Sales Pitch Slide](https://easynig-my.sharepoint.com/:p:/g/personal/sodiq_easynig_onmicrosoft_com/EQf5yEHLletAuVCqIkEUN9ABinPXnJdaMkB55fkOM3HTWg?e=UEpfSu) or schedule a **30-minute live demo** [here](https://outlook.office365.com/book/EasyEduConsult@easynig.onmicrosoft.com), where I’ll show you exactly how we can automate and integrate your operations. When would be a good time to meet?  
-
----
+Kindly look through [My Sales Pitch Presentation Slide](https://easynig-my.sharepoint.com/:p:/g/personal/sodiq_easynig_onmicrosoft_com/EQf5yEHLletAuVCqIkEUN9ABinPXnJdaMkB55fkOM3HTWg?e=UEpfSu) 
 
 
 
