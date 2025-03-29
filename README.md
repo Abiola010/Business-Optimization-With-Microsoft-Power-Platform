@@ -1,7 +1,7 @@
 # Power Platform Use Case: Customer Order & Inventory Management System
 
 ## **Introduction**
-A mid-sized manufacturing company faced inefficiencies in handling **customer orders and inventory management**. The existing process involved multiple spreadsheets, emails, and manual interventions, leading to errors, delays, and poor visibility into operations.
+A mid-sized manufacturing company named Abiola & Co. faced inefficiencies in handling **customer orders and inventory management**. The existing process involved multiple spreadsheets, emails, and manual interventions, leading to errors, delays, and poor visibility into operations.
 
 To resolve these challenges, we implemented a **Microsoft Power Platform** solution to automate workflows, centralize data, and improve overall operational efficiency.
 
