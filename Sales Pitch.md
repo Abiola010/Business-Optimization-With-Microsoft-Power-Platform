@@ -33,15 +33,18 @@ For solving this problem we will use using Microsoft Power Platform such as powe
 ### **Implementation Breakdown:**
 
 #### **1️⃣ Power Pages – Customer Order Interface**
-- Designed a **website built with power pages** where customers can place orders.
+- A **website built with Power Pages** where customers can place orders.
 - Integrated with **Dataverse** to store order details securely.
   
-#### **2️⃣ Automation – Automating Customer Order  and Invetory Managemrnt**
+#### **2️⃣ Automation – Automating Customer Order  and Inventory Management**
 - When a customer submits an order:
   - A confirmation email is sent to the customer.
   - Sales and inventory teams notified of the new order.
   - Updates the inventory management system in real time.
-- The Inventory Approval Management Syaytem:
+- The Inventory Approval Management System:
+  - Check if the requested inventory is available
+  - Budget Approval to be given by the finance department.
+  - Quality Assurance team enures that company policies and regulations are met
 
 #### **3️⃣ Power BI – Reporting & Analytics**
 - Connected to **Dataverse** for real-time tracking of:
