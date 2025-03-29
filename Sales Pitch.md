@@ -3,14 +3,15 @@
 Abiola & Co. are facing inefficiencies in handling customer orders and inventory management. The existing process involved multiple spreadsheets, emails, and manual interventions, which has led to errors, delays, and poor visibility into business operation.
 
 Right now, the team is working harder than they should which involves manually processing customers orders, re-
-stocking dinventory, and dealing with delays due to disconnected systems. But how about having a fully automated, integrated system that eliminates these inefficiencies, ensuring real-time data flow and faster order fulfillment? That’s exactly what Microsoft Power Platform can do for your business.
+stocking inventory, and dealing with delays due to disconnected systems.
+But how about having a fully automated, integrated system that eliminates these inefficiencies, ensuring real-time data flow and faster order fulfillment? That’s exactly what Microsoft Power Platform can do for your business.
 
 ### **Understanding the Current Pain Points of Abiola & Co. Manufacturing Company**
-I havee analyzed the business operations, and here’s what’s showing down the business efficiency:
+I have analyzed the business operations, and here’s what’s showing down the business efficiency:
 
 - **Manual Order Processing:** Orders come via email and are manually entered, increasing the risk of errors.  
 - **Data Silos:** Different departments rely on separate spreadsheets and systems, causing inconsistencies.  
-- **Inventory Mismatch:** No real-time updates lead to delays, overstocking, or out of stock.  
+- **Inventory Mismatch:** No real-time updates lead to delays, overstocking, or out-of-stock products.  
 - **Lack of Automation:** Approvals are slow, causing delay in order fulfillment.  
 - **Limited Reporting:** No analytics for sales trends, customer demand, or stock movement.  
 
@@ -19,11 +20,10 @@ I havee analyzed the business operations, and here’s what’s showing down the
 ---
 ### **The Solution – Microsoft Power Platform**  
 With Microsoft Power Platform, the business operations would be into a single automated ecosystem thereby eliminating inefficiencies and ensuring seamless workflows.
-For solving this problem we will use using Microsoft Power Platform such as power pages, power automate,power BI, Dataverse.
+For solving this problem we will use using Microsoft Power Platform such as power pages, power automate,power BI, and Dataverse.
 
-✅ **Power page** – Custom website for customer order entry.  
+✅ **Power Page** – Custom website for customer order entry.  
 ✅ **Power Apps** - For managing customer orders and inventory management.
-
 ✅ **Power Automate** – Automate inventory order approvals, notifications, and movement of customer order between departments.  
 ✅ **Power BI** – Advanced analytics for sales forecasting, stock levels, and operational efficiency.  
 ✅ **Dataverse** – A centralized, secure database ensuring all teams work from a **single source**.   
