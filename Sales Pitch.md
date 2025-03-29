@@ -29,6 +29,7 @@ For solving this problem we will use using Microsoft Power Platform such as powe
 ✅ **Power BI** – Advanced analytics for sales forecasting, stock levels, and operational efficiency.  
 ✅ **Dataverse** – A centralized, secure database ensuring all teams work from a **single source**.
 
+---
 ### **Implementation Breakdown:**
 
 #### **1️⃣ Power Pages – Customer Order Interface**
