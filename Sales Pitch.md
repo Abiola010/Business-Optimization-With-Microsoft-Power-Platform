@@ -19,6 +19,7 @@ I havee analyzed the business operations, and here’s what’s showing down the
 ---
 ### **The Solution – Microsoft Power Platform**  
 With Microsoft Power Platform, the business operations would be into a single automated ecosystem thereby eliminating inefficiencies and ensuring seamless workflows.
+Microsoft Power Platform involves several applications such power pages, power automate,power BI, Dataverse,
 
 ✅ **Power page** – Custom website for digital order entry, approval workflows, and real-time inventory tracking.  
 ✅ **Power Automate** – Automate order approvals, notifications, and updates between departments.  
