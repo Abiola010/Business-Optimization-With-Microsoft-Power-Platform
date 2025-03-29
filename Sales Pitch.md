@@ -37,10 +37,11 @@ For solving this problem we will use using Microsoft Power Platform such as powe
 - Integrated with **Dataverse** to store order details securely.
   
 #### **2️⃣ Automation – Automating Customer Order  and Invetory Managemrnt**
-- When a customer subnits order, an **automated flow**:
+- When a customer submits an order:
   - A confirmation email is sent to the customer.
   - Sales and inventory teams notified of the new order.
   - Updates the inventory management system in real time.
+- The Inventory Approval Management Syaytem:
 
 #### **3️⃣ Power BI – Reporting & Analytics**
 - Connected to **Dataverse** for real-time tracking of:
