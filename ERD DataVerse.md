@@ -13,7 +13,7 @@ Stores details of all products in stock.
 |------------|----------|-------------|
 | Product ID | Unique Identifier | Primary Key |
 | Product Name | Text | Name of the product |
-| Category | Choice | Raw Materials, Finished Goods, etc. |
+| Category | Choice | Raw Materials, Finished Goods, etc.. |
 | SKU | Text | Stock Keeping Unit |
 | Supplier ID | Lookup (Suppliers) | Links to Supplier Table |
 | Unit of Measurement | Choice | kg, pieces, liters, etc. |
@@ -27,6 +27,9 @@ Tracks customer purchases and fulfillment status.
 |------------|----------|-------------|
 | Order ID | Unique Identifier | Primary Key |
 | Customer Name | Text | Name of the customer |
+| Customer Email | Text | Email of the customer |
+| Customer State | Text | State of the customer |
+| Customer Country | Text | Country of the customer |
 | Order Date | Date/Time | Date order was placed |
 | Order Status | Choice | Pending, Shipped, Delivered, Canceled |
 | Total Order Value | Currency | Order amount |
@@ -43,7 +46,7 @@ Records stock changes due to orders, restocking, or adjustments.
 | Quantity Adjusted | Number | Amount of stock added/removed |
 | Date & Time | Date/Time | When the transaction occurred |
 | Reason for Adjustment | Choice | Damaged, Expired, Returned, etc. |
-| Handled By | Lookup (Users) | Staff responsible for transaction |
+| Handled By | Lookup (Users) | Staff responsible for Order Request |
 
 ### **4️⃣ Suppliers & Vendors**
 Maintains supplier details for procurement and restocking.
@@ -51,19 +54,12 @@ Maintains supplier details for procurement and restocking.
 |------------|----------|-------------|
 | Supplier ID | Unique Identifier | Primary Key |
 | Supplier Name | Text | Name of the supplier |
-| Contact Information | Text | Email, phone, etc. |
+| Contact Information | Text | Phone |
+| Contact Information | Text | Email |
 | Products Supplied | Lookup (Products) | Links to Product Table |
-| Payment Terms | Choice | Net 30, Net 60, etc. |
+| Payment Terms | Choice | Upfront Payment conditions before delivery date (30% 60%). |
 | Last Order Date | Date/Time | Most recent transaction date |
 
-### **5️⃣ Users & Roles (Access Control)**
-Defines user permissions and roles in the system.
-| Field Name | Data Type | Description |
-|------------|----------|-------------|
-| User ID | Unique Identifier | Primary Key |
-| Full Name | Text | Name of the user |
-| Role | Choice | Admin, Sales Rep, Inventory Manager |
-| Permissions | Choice | Read, Edit, Approve Orders, Adjust Stock |
 
 ---
 
