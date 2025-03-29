@@ -23,10 +23,10 @@ For solving this problem we will use using Microsoft Power Platform such as powe
 
 ✅ **Power page** – Custom website for customer order entry.  
 ✅ **Power Apps** - For managing customer orders and inventory management.
+
 ✅ **Power Automate** – Automate inventory order approvals, notifications, and movement of customer order between departments.  
 ✅ **Power BI** – Advanced analytics for sales forecasting, stock levels, and operational efficiency.  
-✅ **Dataverse** – A centralized, secure database ensuring all teams work from a **single source**.  
-✅ **Migration to a new Systems** –  migration to your own **ERP, CRM, and warehouse systems**.  
+✅ **Dataverse** – A centralized, secure database ensuring all teams work from a **single source**.   
 
 ---
 
