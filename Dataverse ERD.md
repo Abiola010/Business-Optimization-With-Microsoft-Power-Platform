@@ -70,6 +70,11 @@ Maintains supplier details for procurement and restocking.
 - **Users ↔ Inventory Transactions** (Many-to-One) → Each transaction is recorded by a user.
 
 ---
+![IMS](https://github.com/user-attachments/assets/b9ef417f-76ee-4a16-aec7-43fafbdc9d94)
+
+---
+
+
 
 ## **Conclusion**
 This Dataverse schema provides a **structured, secure, and scalable** database design for the Inventory Management System, ensuring smooth operations, automation, and analytics integration.
