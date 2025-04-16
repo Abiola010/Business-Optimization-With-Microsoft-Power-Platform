@@ -20,19 +20,21 @@ AI and Analytics with Power BI for deeper insights.
 
 Scalability and Security to protect business data.
 
-## Meet the Client Team
+## Understanding the Business Needs
 
-John Smith (Operations Manager) – Needs an automated order tracking system.
+Each team member has a unique challenge, and Power Platform offers targeted solutions:
 
-Sarah Johnson (Customer Service Rep) – Wants a centralized system for customer inquiries.
+John Smith (Operations Manager): Needs real-time visibility into customer orders.
 
-Michael Brown (IT Admin) – Focused on security and governance.
+Sarah Johnson (Customer Service): Wants a unified view to manage customer inquiries more effectively.
 
-David Lee (Finance Controller) – Requires financial tracking for order payments.
+Michael Brown (IT Admin): Focused on keeping the system secure and compliant.
 
-Karen White (Inventory Manager) – Needs automated stock tracking.
+David Lee (Finance): Requires tracking tools for order payments and financial reporting.
 
-Chris Adams (Sales Executive) – Wants quick access to customer purchase history.
+Karen White (Inventory Manager): Needs automated stock level tracking to avoid over/under-stocking.
+
+Chris Adams (Sales Executive): Wants fast access to customer purchase history to close deals quicker.
 
 ---
 ### 🔍 Business Justification – Why Power Platform?
