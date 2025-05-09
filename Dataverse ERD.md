@@ -21,11 +21,13 @@ Stores details of all products in stock.
 | Current Stock Quantity | Number | Available stock count |
 | Unit Price | Currency | Price per unit |
 
-### **2️⃣ Customer Details**
-Tracks customer purchases and fulfillment status.
+### **2️⃣ Customer**
+Information about Customers
 | Field Name | Data Type | Description |
 |------------|----------|-------------|
-| Customer Name | Text | Name of the customer |
+| Customer Last Name | Text | Last Name of the customer(Primary Key) |
+| Customer First Name | Text | First Name of the customer |
+| Created on | Date and Time | Date of Customer Cretion |
 | Customer Phone Number | Phone Number | Phone Number of the customer |
 | Customer Email | Text | Email of the customer |
 | Customer City | Text | City of the customer |
