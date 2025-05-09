@@ -21,22 +21,32 @@ Stores details of all products in stock.
 | Current Stock Quantity | Number | Available stock count |
 | Unit Price | Currency | Price per unit |
 
-### **2️⃣ Customer Orders**
+### **2️⃣ Customer Details**
+Tracks customer purchases and fulfillment status.
+| Field Name | Data Type | Description |
+|------------|----------|-------------|
+| Customer Name | Text | Name of the customer |
+| Customer Phone Number | Phone Number | Phone Number of the customer |
+| Customer Email | Text | Email of the customer |
+| Customer City | Text | City of the customer |
+| Customer State | Text | State of the customer |
+| Customer Country | Text | Country of the customer |
+
+
+### **3️⃣ Customer Orders**
 Tracks customer purchases and fulfillment status.
 | Field Name | Data Type | Description |
 |------------|----------|-------------|
 | Order ID | Unique Identifier | Primary Key |
 | Customer Name | Text | Name of the customer |
-| Customer Email | Text | Email of the customer |
-| Customer State | Text | State of the customer |
-| Customer Country | Text | Country of the customer |
+| Customer ID | Lookup (Customer Details) | Links to Customer Table |
 | Order Date | Date/Time | Date order was placed |
 | Order Status | Choice | Pending, Shipped, Delivered, Canceled |
 | Total Order Value | Currency | Order amount |
 | Payment Status | Choice | Paid, Unpaid, Partially Paid |
 | Delivery Address | Text | Shipping location |
 
-### **3️⃣ Inventory Transactions (Stock Movement)**
+### **4️⃣ Inventory Transactions (Stock Movement)**
 Records stock changes due to orders, restocking, or adjustments.
 | Field Name | Data Type | Description |
 |------------|----------|-------------|
@@ -48,7 +58,7 @@ Records stock changes due to orders, restocking, or adjustments.
 | Reason for Adjustment | Choice | Damaged, Expired, Returned, etc. |
 | Handled By | Lookup (Users) | Staff responsible for Order Request |
 
-### **4️⃣ Suppliers & Vendors**
+### **5 Suppliers & Vendors**
 Maintains supplier details for procurement and restocking.
 | Field Name | Data Type | Description |
 |------------|----------|-------------|
