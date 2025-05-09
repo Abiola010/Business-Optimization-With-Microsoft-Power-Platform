@@ -25,7 +25,8 @@ Stores details of all products in stock.
 Information about Customers
 | Field Name | Data Type | Description |
 |------------|----------|-------------|
-| Customer Last Name | Text | Last Name of the customer(Primary Key) |
+| Customer ID | Unique Identifier | Primary Key |
+| Customer Last Name | Text | Last Name of the customer |
 | Customer First Name | Text | First Name of the customer |
 | Created on | Date and Time | Date of Customer Cretion |
 | Customer Phone Number | Phone Number | Phone Number of the customer |
@@ -42,6 +43,7 @@ Tracks customer purchases and fulfillment status.
 | Order ID | Unique Identifier | Primary Key |
 | Customer Name | Text | Name of the customer |
 | Customer ID | Lookup (Customer Details) | Links to Customer Table |
+| Product Name | Lookup (Product) | Links to Product Table |
 | Order Date | Date/Time | Date order was placed |
 | Order Status | Choice | Pending, Shipped, Delivered, Canceled |
 | Total Order Value | Currency | Order amount |
